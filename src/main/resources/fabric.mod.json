@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "inquilino",
+	"version": "${version}",
+	"name": "O Inquilino",
+	"description": "Este mundo já tinha um morador.\n\nUm mod de terror ARG: ele observa, aprende o seu nome e quer o seu quarto.\nContém sustos, sons altos e imagens piscantes (desativáveis).",
+	"authors": [
+		"T."
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/inquilino/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.inquilino.InquilinoMod"
+		],
+		"client": [
+			"com.inquilino.client.InquilinoClient"
+		]
+	},
+	"mixins": [
+		"inquilino.mixins.json",
+		{
+			"config": "inquilino.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

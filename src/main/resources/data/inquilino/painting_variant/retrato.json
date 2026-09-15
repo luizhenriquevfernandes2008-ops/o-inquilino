@@ -1,0 +1,13 @@
+{
+	"asset_id": "inquilino:retrato",
+	"author": {
+		"color": "gray",
+		"translate": "painting.inquilino.retrato.author"
+	},
+	"height": 2,
+	"title": {
+		"color": "dark_red",
+		"translate": "painting.inquilino.retrato.title"
+	},
+	"width": 2
+}

@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"package": "com.inquilino.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"SplashManagerMixin",
+		"LevelExtractorMixin",
+		"AvatarRendererMixin",
+		"PlayerModelMixin",
+		"GameRendererMixin",
+		"FogRendererMixin",
+		"MusicManagerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

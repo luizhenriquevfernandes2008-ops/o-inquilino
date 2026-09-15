@@ -1,0 +1,13 @@
+{
+	"asset_id": "inquilino:corredor",
+	"author": {
+		"color": "gray",
+		"translate": "painting.inquilino.corredor.author"
+	},
+	"height": 2,
+	"title": {
+		"color": "dark_red",
+		"translate": "painting.inquilino.corredor.title"
+	},
+	"width": 1
+}
